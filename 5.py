@@ -8,7 +8,7 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(15, GPIO.OUT)
 
 #nacteni souboru
-file =  urllib2.urlopen("https://ioe.zcu.cz/morse.php?id=wYG9h3wYbUwBnEGY8yylLY7hTCbsz54d")
+file =  urllib2.urlopen("https://ioe.zcu.cz/morse.php?id=hash")
 for line in file:
 	morse = line
 
